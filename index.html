@@ -7,17 +7,19 @@
 </head>
 
 <body>
-	<h1>Broadway Design</h1>
+	<header id="header">
+		<h1>Broadway Design</h1>
 
-	<nav>
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Work</a></li>
-			<li><a href="#">Team</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-	</nav>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li><br>
+				<li><a href="#">About</a></li><br>
+				<li><a href="#">Work</a></li><br>
+				<li><a href="#">Team</a></li><br>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
 
 	<h2>Our Process</h2>
 	<img src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/identify.svg">
@@ -29,7 +31,9 @@
 	<img src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/execute.svg">
 	<h3>Execute</h3>
 	<p>We put everything we have into our work</p>
-	<h2>Designed in New York</h2>
+	<div class="style">
+		<h2>Designed in New York</h2>
+	</div>
 	<h3>Portfolio</h3>
 	<p>Coming Soon</p>
 	<h3>Team</h3>
@@ -40,14 +44,13 @@
 	<p>Twitter: @test</p>
 
 	<footer>
-		<p>&copy Broadway 2017</p>
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Work</a></li>
-			<li><a href="#">Team</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
+		<p><span>&copy Broadway 2017</span>
+			<a class="btn-nav" href="#">Home</a>
+	        <a class="btn-nav" href="#about">About</a>
+	        <a class="btn-nav" href="#work">Work</a>
+	        <a class="btn-nav" href="#team">Team</a>
+	        <a class="btn-nav" href="#contact">Contact</a>	
+        </p>	
 	</footer>
 
 </body>
